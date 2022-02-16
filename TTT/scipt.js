@@ -1,7 +1,4 @@
 // Setting up variables
-const ACTION_SCISSORS = 'scissors';
-const ACTION_PAPER = 'paper';
-const ACTION_ROCK = 'rock';
 const TIE = 'tie';
 const player1 = 'player1';
 const player2 = 'player2';
@@ -202,5 +199,5 @@ function clearBoard(){
     var img = imgElements.remove('img');  
   }
 }
-// setup default player names
+// welcomes the players
 init();
