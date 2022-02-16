@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>replit</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <h1> Kitty Tic Tac Toe</h1>
+    <h3 id='result'></h3>
+  <!-- setting up the grid -->
+    <div class="game-board" onClick= "play(event)">
+      <div class="row" id="row1`">
+          <div class ="cell" id="cell0.0"></div> 
+          <div class="cell" id="cell0.1"></div>
+          <div class="cell" id="cell0.2"></div>
+      </div>
+        <div class="row" id="row2">
+        <div class="cell" id="cell1.0"></div> 
+        <div class="cell" id="cell1.1"></div>
+        <div class="cell" id="cell1.2"></div>
+       </div>
+    <div class="row" id="row3">
+        <div class="cell" id="cell2.0"></div> 
+        <div class="cell" id="cell2.1"></div>
+        <div class="cell" id="cell2.2"></div>
+    </div>
+    </div>
+    <button class= "reset" onClick="clearBoard()">Re-set Button: Clear Board</button>
+ 
+    <script src="script.js"></script>
+  </body>
+</html>
